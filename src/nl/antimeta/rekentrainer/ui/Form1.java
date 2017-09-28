@@ -21,5 +21,6 @@ public class Form1 extends BaseForm {
         String naam = ""; //TODO value van het input field
 
         Student student = new Student(naam);
+        //TODO start new form
     }
 }
