@@ -1,14 +1,10 @@
 package nl.antimeta.rekentrainer;
 
-import nl.antimeta.rekentrainer.model.Klas;
-import nl.antimeta.rekentrainer.model.Student;
-import nl.antimeta.rekentrainer.rekenvragen.Vragen;
+import nl.antimeta.rekentrainer.ui.Form1;
 
 public class Main {
 
     public static void main(String[] args) {
-        Student darius = new Student("Darius");
-        darius.setKlas(Klas.GROUP_5);
-        new Vragen(darius, true, 10).generateVragen();
+        new Form1();
     }
 }
